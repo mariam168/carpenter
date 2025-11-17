@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
 
 Sitemap: https://carpenter-blue.vercel.app/sitemap.xml
