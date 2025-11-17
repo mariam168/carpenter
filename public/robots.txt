@@ -1,6 +1,4 @@
-# السماح لكل محركات البحث بالزحف لكل الموقع
 User-agent: *
-Allow: /
+Disallow:
 
-# Sitemap
 Sitemap: https://carpenter-blue.vercel.app/sitemap.xml
