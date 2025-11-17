@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://carpenter-blue.vercel.app//</loc>
+    <loc>https://carpenter-blue.vercel.app/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://carpenter-blue.vercel.app//#services</loc>
+    <loc>https://carpenter-blue.vercel.app/#services</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carpenter-blue.vercel.app//#about</loc>
+    <loc>https://carpenter-blue.vercel.app/#about</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carpenter-blue.vercel.app//#why-us</loc>
+    <loc>https://carpenter-blue.vercel.app/#why-us</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carpenter-blue.vercel.app//#testimonials</loc>
+    <loc>https://carpenter-blue.vercel.app/#testimonials</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carpenter-blue.vercel.app//#contact</loc>
+    <loc>https://carpenter-blue.vercel.app/#contact</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://carpenter-blue.vercel.app//404</loc>
+    <loc>https://carpenter-blue.vercel.app/404</loc>
     <priority>0.1</priority>
   </url>
 </urlset>
