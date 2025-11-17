@@ -2,22 +2,22 @@ import { ShieldCheck, Clock, Tag, MapPin } from "lucide-react";
 
 const features = [
   {
-    icon: <ShieldCheck className="w-8 h-8 text-green-700" />,
+    icon: <ShieldCheck className="w-8 h-8 text-green-700" aria-hidden="true" />,
     title: "جودة فاخرة",
     desc: "نقدم خدمات بمعايير جودة عالية باستخدام أفضل المواد والأدوات لضمان متانة وإتقان العمل.",
   },
   {
-    icon: <Clock className="w-8 h-8 text-green-700" />,
+    icon: <Clock className="w-8 h-8 text-green-700" aria-hidden="true" />,
     title: "سرعة في التنفيذ",
     desc: "فريق عمل سريع ومنظم قادر على إنجاز المهام في الوقت المحدد دون التأثير على الجودة.",
   },
   {
-    icon: <Tag className="w-8 h-8 text-green-700" />,
+    icon: <Tag className="w-8 h-8 text-green-700" aria-hidden="true" />,
     title: "أسعار منافسة",
     desc: "نقدم أسعارًا عادلة مع الحفاظ على الجودة، بالإضافة لخيارات دفع مرنة تناسب جميع العملاء.",
   },
   {
-    icon: <MapPin className="w-8 h-8 text-green-700" />,
+    icon: <MapPin className="w-8 h-8 text-green-700" aria-hidden="true" />,
     title: "خدمة في شمال الرياض",
     desc: "نحن نجار قريب من موقعك في شمال الرياض، نقدم خدمات سريعة في جميع أحياء المنطقة.",
   },
@@ -39,6 +39,8 @@ const WhyChooseUsSection = () => (
         {features.map((feature, index) => (
           <div
             key={index}
+            itemScope
+            itemType="https://schema.org/Service"
             className="bg-white rounded-2xl border border-amber-200 shadow-md p-8 hover:shadow-xl hover:-translate-y-2 transition duration-300"
           >
             <div className="flex justify-center mb-6">
@@ -46,10 +48,10 @@ const WhyChooseUsSection = () => (
                 {feature.icon}
               </div>
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-4">
+            <h3 itemProp="name" className="text-xl font-bold text-gray-900 mb-4">
               {feature.title}
             </h3>
-            <p className="text-gray-700 text-sm leading-relaxed">
+            <p itemProp="description" className="text-gray-700 text-sm leading-relaxed">
               {feature.desc}
             </p>
           </div>

@@ -5,18 +5,16 @@ const Footer = () => {
     <footer
       className="bg-stone-800 text-stone-300 pt-12 md:pt-16 pb-6 md:pb-8"
       dir="rtl"
+      itemScope
+      itemType="https://schema.org/LocalBusiness"
     >
-      
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-        
-
         <div className="space-y-4 lg:col-span-1">
-          <h2 className="text-2xl font-bold bg-gradient-to-r from-orange-200 to-stone-300 bg-clip-text text-transparent">
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-orange-200 to-stone-300 bg-clip-text text-transparent" itemProp="name">
             نجار شمال الرياض
           </h2>
-          <p className="leading-relaxed text-stone-400">
-            متخصصون في تقديم أرقى خدمات النجارة. نجمع بين الحرفية التقليدية
-            والتصاميم العصرية لنقدم لكم جودة لا تضاهى.
+          <p className="leading-relaxed text-stone-400" itemProp="description">
+            متخصصون في تقديم أرقى خدمات النجارة. نجمع بين الحرفية التقليدية والتصاميم العصرية لنقدم لكم جودة لا تضاهى.
           </p>
         </div>
 
@@ -44,16 +42,18 @@ const Footer = () => {
           <h3 className="text-lg font-bold text-white">تواصل معنا</h3>
           <ul className="space-y-3">
             <li className="flex items-center gap-3">
-              <Phone className="w-5 h-5 text-orange-300 flex-shrink-0" />
-              <a href="tel:+0561200937" className="hover:text-orange-300 transition-colors">057 640 5991</a>
+              <Phone className="w-5 h-5 text-orange-300 flex-shrink-0" aria-hidden="true"/>
+              <a href="tel:+0561200937" aria-label="اتصل بالهاتف" className="hover:text-orange-300 transition-colors">057 640 5991</a>
             </li>
             <li className="flex items-center gap-3">
-              <MessageSquare className="w-5 h-5 text-orange-300 flex-shrink-0" />
-              <a href="https://wa.me/0561200937" target="_blank" rel="noopener noreferrer" className="hover:text-orange-300 transition-colors">واتساب مباشر</a>
+              <MessageSquare className="w-5 h-5 text-orange-300 flex-shrink-0" aria-hidden="true"/>
+              <a href="https://wa.me/0561200937" target="_blank" rel="noopener noreferrer" aria-label="تواصل عبر واتساب" className="hover:text-orange-300 transition-colors">
+                واتساب مباشر
+              </a>
             </li>
             <li className="flex items-start gap-3">
-              <MapPin className="w-5 h-5 text-orange-300 mt-1 flex-shrink-0" />
-              <span>شمال الرياض، المملكة العربية السعودية</span>
+              <MapPin className="w-5 h-5 text-orange-300 mt-1 flex-shrink-0" aria-hidden="true"/>
+              <span itemProp="address">شمال الرياض، المملكة العربية السعودية</span>
             </li>
           </ul>
         </div>
