@@ -186,7 +186,7 @@ const ServicesSection = () => {
               "@type": "LocalBusiness",
               "name": "نجار شمال الرياض",
               "areaServed": "الرياض",
-              "telephone": "+966561200937",
+              "telephone": "+0561200937",
             },
           })),
         })}

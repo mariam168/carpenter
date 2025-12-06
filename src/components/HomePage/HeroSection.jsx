@@ -64,7 +64,7 @@ export default function HeroSection() {
         </p>
 
         <a
-          href="https://wa.me/0561200937"
+          href="https://wa.me/966561200937"
           target="_blank"
           rel="noopener noreferrer"
           role="button"
@@ -84,7 +84,7 @@ export default function HeroSection() {
           "name": "نجار شمال الرياض - نجار البيت السعودي",
           "description":
             "نجار شمال الرياض متخصص في تصميم وصيانة الأثاث، تركيب الأبواب والأقفال الذكية، وأعمال النجارة الفاخرة بخبرة تزيد عن 10 سنوات.",
-          "image": "https://smart-shop-khaki.vercel.app/assets/hero2.jpg",
+          "image": "https://carpenter-blue.vercel.app/assets/hero2.jpg",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "الرياض",
@@ -92,7 +92,7 @@ export default function HeroSection() {
           },
           "telephone": "+966561200937",
           "areaServed": "شمال الرياض",
-          "url": "https://smart-shop-khaki.vercel.app/",
+          "url": "https://carpenter-blue.vercel.app/",
           "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+966561200937",

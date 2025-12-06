@@ -45,7 +45,7 @@ const MapSection = () => {
           "name": "نجار شمال الرياض",
           "description":
             "نجار شمال الرياض متخصص في تصميم الأثاث، تركيب الأبواب والأقفال الذكية، والنجارة الفاخرة بخبرة تزيد عن 10 سنوات.",
-          "image": "https://smart-shop-khaki.vercel.app/assets/hero2.jpg",
+          "image": "https://carpenter-blue.vercel.app/assets/hero2.jpg",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "شمال الرياض",
@@ -60,7 +60,7 @@ const MapSection = () => {
           "hasMap":
             "https://www.google.com/maps?cid=0xdf01deccf9e9e32f",
           "telephone": "+966561200937",
-          "url": "https://smart-shop-khaki.vercel.app/",
+          "url": "https://carpenter-blue.vercel.app/",
         })}
       </script>
     </section>

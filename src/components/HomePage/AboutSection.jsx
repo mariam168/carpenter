@@ -101,7 +101,7 @@ const AboutSection = () => (
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "نجار شمال الرياض",
-        "image": "https://smart-shop-khaki.vercel.app/assets/bed.jpg",
+        "image": "https://carpenter-blue.vercel.app/assets/bed.jpg",
         "description":
           "نجار شمال الرياض يقدم خدمات نجارة فاخرة، تركيب وصيانة الأثاث والأبواب والشترات بخبرة تتجاوز 10 سنوات.",
         "address": {
@@ -111,8 +111,8 @@ const AboutSection = () => (
           "addressCountry": "السعودية",
         },
         "areaServed": "شمال الرياض",
-        "telephone": "+966500000000",
-        "url": "https://smart-shop-khaki.vercel.app/",
+        "telephone": "+0561200937",
+        "url": "https://carpenter-blue.vercel.app/",
       })}
     </script>
   </section>

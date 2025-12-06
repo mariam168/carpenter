@@ -1,19 +1,19 @@
 import { useState } from "react";
 import { Phone, MessageSquare, MapPin, Clock, Send } from "lucide-react";
 
-const WHATSAPP_NUMBER = "966576405991";
+const WHATSAPP_NUMBER = "966561200937";
 
 const contactInfo = [
   {
     icon: <Phone className="w-6 h-6 text-green-700" aria-hidden="true" />,
     title: "هاتف الشركة",
-    value: "057 640 5991",
+    value: "966561200937",
     href: `tel:+${WHATSAPP_NUMBER}`,
   },
   {
     icon: <MessageSquare className="w-6 h-6 text-green-700" aria-hidden="true" />,
     title: "واتساب",
-    value: "057 640 5991",
+    value: "966561200937",
     href: `https://wa.me/${WHATSAPP_NUMBER}`,
   },
   {
@@ -192,13 +192,13 @@ const ContactSection = () => {
           "mainEntity": {
             "@type": "LocalBusiness",
             "name": "نجار شمال الرياض",
-            "telephone": "+966576405991",
+            "telephone": "+966561200937",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "الرياض",
               "addressCountry": "السعودية",
             },
-            "url": "https://smart-shop-khaki.vercel.app/",
+            "url": "https://carpenter-blue.vercel.app/",
           },
         })}
       </script>
